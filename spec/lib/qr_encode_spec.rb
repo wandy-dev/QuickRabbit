@@ -1,4 +1,11 @@
 RSpec.describe QuickRabbit::QrEncode do
+  after(:each) do
+    QuickRabbit.configure do |config|
+      config.directory = nil
+      config.img_size = nil
+    end
+  end
+
   describe '.encode' do
     let(:directory) { './spec/tmp' }
     let(:string) { 'hello' }

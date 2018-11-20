@@ -1,6 +1,13 @@
 require 'ostruct'
 
 RSpec.describe QuickRabbit do
+  after(:each) do
+    QuickRabbit.configure do |config|
+      config.directory = nil
+      config.img_size = nil
+    end
+  end
+
   it "has a version number" do
     expect(QuickRabbit::VERSION).not_to be nil
   end
