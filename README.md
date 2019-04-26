@@ -1,5 +1,5 @@
 # QuickRabbit
-[![Build Status](https://semaphoreci.com/api/v1/projects/909d9238-be0c-4c86-9bfb-58aaed28ffa8/2161928/badge.svg)](https://semaphoreci.com/groundfloor-us/the_connector)
+[![Build Status](https://travis-ci.org/wandy-dev/QuickRabbit.svg?branch=master)](https://travis-ci.org/wandy-dev/QuickRabbit)
 
 A quick and simple way to encode strings to produce QR code images
 
